@@ -1,3 +1,4 @@
+{% load static%}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -8,13 +9,66 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Auntentication</title>
+    <title>Blood Loof</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
 </head>
 
 <body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+              Home
+            </a>
+
+                <a class="navbar-item">
+              Blood Donation
+            </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                More
+              </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                  About
+                </a>
+                        <a class="navbar-item">
+                  Contact
+                </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <button type="submit" class="button is-danger is-responsive"> <a href="/signup"> SignUp </a> </button>
+                        <button type="submit" class="button"> <a href="/signin"> SignIn </a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     {% for message in messages %}
     <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert ">
@@ -27,16 +81,21 @@
 
     <h3>Welcome to BloodLoof</h3>
 
-    {% if user.is_authenticated %}
+    <!-- {% if user.is_authenticated %} -->
     <h3>Hello Dear {{ fname }} </h3>
     <h4>Congratulations, You are looged in!</h4>
-    <button type="submit"> <a href="/signout"> SignOut </a> </button> {% else %}
-    <button type="submit"> <a href="/signup"> SignUp </a> </button>
+    <button type="submit" class="button is-danger"> <a href="/signout"> SignOut </a> </button>
+    <!-- {% else %} -->
+    <button type="submit" class="button is-danger"> <a href="/signup"> SignUp </a> </button>
     <br/>
     <br/>
-    <button type="submit"> <a href="/signin"> SignIn </a> </button> {% endif %}
+    <button type="submit" class="button is-danger"> <a href="/signin"> SignIn </a> </button>
+    <!-- {% endif %} -->
 
     <script src="" async defer></script>
+
+
+
 </body>
 
 </html>

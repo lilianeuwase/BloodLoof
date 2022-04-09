@@ -8,7 +8,7 @@ from django.core.mail import send_mail, EmailMessage
 from django.contrib.sites.shortcuts import get_current_site
 from django.template.loader import render_to_string
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
-from django.utils.encoding import force_bytes, force_text
+from django.utils.encoding import force_bytes, force_str
 from . tokens import generate_token
 
 
@@ -23,6 +23,7 @@ def signup(request):
         fname = request.POST['fname']
         lname = request.POST['lname']
         email = request.POST['email']
+        number = request.POST['number']
         password1 = request.POST['password1']
         password2 = request.POST['password2']
         
@@ -32,13 +33,19 @@ def signup(request):
         
         if User.objects.filter(email = email).exists():
             messages.error(request, "Email already exists, Please sign in if you already has an account")
-            return redirect('signin')
+            return redirect('home')
+        
+        # if User.objects.filter(number = number).exists():
+        #     messages.error(request, "Phone number already exists, Please sign in if you already has an account")
+        #     return redirect('home')
         
         if len(username)>10:
             messages.error(request, "Username can not exceed 10 characters")
+            return redirect('home')
             
         if password1 !=password2:
             messages.error(request, "Passwords do not match")
+            return redirect('home')
             
         if not username.isalnum():
             messages.error(request, "Username must be Alpha-Numeric!!")
@@ -47,41 +54,25 @@ def signup(request):
         myuser = User.objects.create_user(username, email, password1)
         myuser.first_name = fname
         myuser.last_name = lname
-        myuser.is_active = False
+        #myuser.phone_number = number
+        myuser.is_active = True
         myuser.save()
         
         messages.success(request, "Account Successfully Created!!")
         
         # Welcome and Confirmation Email
         
-        current_site = get_current_site(request)
-        
-        subject = "Welcome to BloodLoof login"
-        message = render_to_string ('email_confirmation.html',{dict},{
-            'name': myuser.first_name,
-            'domain': current_site.domain,
-            'uid': urlsafe_base64_encode(force_bytes(myuser.pk)),
-            'token': generate_token.make_token(myuser)
-        })
-        
-        email = EmailMessage(
-            subject, message,
-            settings.EMAIL_HOST_USER, [myuser.email],
-        )
-        
-        email.fail_silently = True
-        email.send()
-        
-        # "Hello " +myuser.first_name + "!! \n" + "Welcome to BloodLoof, Thank you for registering.\n Kindly confirm your email address"
-        # from_email = settings.EMAIL_HOST_USER
-        # to_list = [myuser.email]
-        # send_mail(subject, message, from_email, to_list, fail_silently=True)
+        # Welcome Email
+        subject = "Welcome to BloodLoof Login!!"
+        message = "Hello " + myuser.first_name + "!! \n" + "Welcome to BloodLoof!! \nThank you"        
+        from_email = settings.EMAIL_HOST_USER
+        to_list = [myuser.email]
+        send_mail(subject, message, from_email, to_list, fail_silently=True)
         return redirect('signin')
         
     return render(request, "authentication/signup.html")
 
 def signin(request):
-    
     if request.method == 'POST':
         username = request.POST['username']
         password1 = request.POST['password1']
@@ -91,12 +82,12 @@ def signin(request):
         if user is not None:
             login(request, user)
             fname = user.first_name
-            return render(request, "authentication/index.html", {'fname': fname})
-            
+            messages.success(request, "Logged In Sucessfully!!")
+            return render(request, "authentication/index.html",{"fname":fname})
         else:
-            messages.error(request, "Invalig login details!")
-            return redirect('home')
-        
+            messages.error(request, "Bad Credentials!!")
+            return redirect('signin')
+    
     return render(request, "authentication/signin.html")
 
 def signout(request):
@@ -104,19 +95,19 @@ def signout(request):
     messages.success(request, "You are logged out!")
     return redirect ('home')
 
-def activate(request, uidb64, token):
-    try:
-        uid = force_text(urlsafe_base64_decode(uidb64))
-        myuser = User.objects.get(pk=uid)
+# def activate(request, uidb64, token):
+#     try:
+#         uid = force_str(urlsafe_base64_decode(uidb64))
+#         myuser = User.objects.get(pk=uid)
         
-    except (TypeError, ValueError, OverflowError, User.DoesNotExist):
-        myuser = None
+#     except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+#         myuser = None
         
-    if myuser is not None and generate_token.check_token(myuser, token):
-        myuser.is_activate = True
-        myuser.save()
-        login(request, myuser)
-        return redirect('home')
+#     if myuser is not None and generate_token.check_token(myuser, token):
+#         myuser.is_activate = True
+#         myuser.save()
+#         login(request, myuser)
+#         return redirect('home')
     
-    else:
-        return render(request, 'activation_failed.html')
+#     else:
+#         return render(request, 'activation_failed.html')
