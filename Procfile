@@ -1,1 +1,1 @@
-web: gunicorn bloodloof:app --log-file=-
+web: gunicorn Bloodloof_project.wsgi
