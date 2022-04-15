@@ -50,8 +50,10 @@
 
         {% if user.is_authenticated %}
         <h3>Hello Dear {{ fname }} </h3>
-        <h4>Congratulations, You are loged in!</h4>
-        <button type="submit" class="button is-danger"> <a href="/signout"> SignOut </a> </button> {% else %}
+        <h4>Congratulations, You are loged in1!</h4>
+        <a href="/signout" class="button bt3 ">
+            <strong> Signout </strong>
+        </a> {% else %}
 
         <div class="hero-body ">
             <div class="container has-text-left ">
@@ -169,7 +171,7 @@
                             <h2>
                                 <span>
                                 <i class="far fa-lightbulb fa-2x has-text-info "></i>
-                                Life Saved!
+                                Life Saved
                             </span>
                             </h2>
 
