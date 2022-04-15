@@ -1,1 +1,1 @@
-web: gunicorn Bloodloof_project --log-file -
+web: gunicorn bloodloof:app --log-file=-
