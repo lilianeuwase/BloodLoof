@@ -33,6 +33,7 @@ SECRET_KEY = '5sfp+*esjnoyd0(7h%nupipd$$ds#p3ot)pd4k78cl$6@d96mn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = ['127.0.0.1', 'bldeployment.herokuapp.com']
 
 
@@ -136,3 +137,7 @@ STATICFILES_DIRS = (
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
