@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.image1 {
+    background: url('/static/Images/Background2.jpeg') center center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    position: center;
+    filter: brightness(100%);
+}
+
+
+/* body {
+    font-family: 'Dosis', sans-serif;
+} */
+
+.navbar {
+    box-shadow: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 960px;
+}
+
+.image2 {
+    background: url('/static/Images/Logo.jpeg') center center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    position: center;
+    padding-bottom: 12rem;
+    filter: brightness(50%);
+}
+
+img.is-center {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.blue {
+    background-color: #4652B1;
+}
+
+.footer {
+    background-color: #fafafa;
+    padding: 2rem 1rem 2rem;
+}
+
+.button.bt1 {
+    background-color: #4652B1;
+    color: white;
+    border-color: #4652B1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button.bt2 {
+    background-color: #F06F0D;
+    color: white;
+    border-color: #F06F0D;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button.bt3 {
+    background-color: white;
+    color: black;
+    border-color: #4652B1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.downy {
+    padding-top: 25em;
+    padding-bottom: 5em;
+    background-color: #F06F0D;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+}

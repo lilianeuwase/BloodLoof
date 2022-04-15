@@ -14,7 +14,7 @@ from . tokens import generate_token
 
 # Create your views here.
 def home(request):
-    return render(request, "authentication/index.html")
+    return render(request, "authentication/homepage.html")
 
 def signup(request):
     
@@ -23,7 +23,7 @@ def signup(request):
         fname = request.POST['fname']
         lname = request.POST['lname']
         email = request.POST['email']
-        number = request.POST['number']
+        phone_number = request.POST['phone_number']
         password1 = request.POST['password1']
         password2 = request.POST['password2']
         
@@ -54,7 +54,7 @@ def signup(request):
         myuser = User.objects.create_user(username, email, password1)
         myuser.first_name = fname
         myuser.last_name = lname
-        #myuser.phone_number = number
+        myuser.phone_number = phone_number
         myuser.is_active = True
         myuser.save()
         
@@ -82,18 +82,30 @@ def signin(request):
         if user is not None:
             login(request, user)
             fname = user.first_name
-            messages.success(request, "Logged In Sucessfully!!")
-            return render(request, "authentication/index.html",{"fname":fname})
+            #messages.success(request, "Logged In Sucessfully!!")
+            return render(request, "authentication/user.html",{"fname":fname})
         else:
-            messages.error(request, "Bad Credentials!!")
+            messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
             return redirect('signin')
     
     return render(request, "authentication/signin.html")
 
 def signout(request):
     logout(request)
-    messages.success(request, "You are logged out!")
+    # messages.success(request, "You are logged out!")
     return redirect ('home')
+
+def donate(request):
+    if request.method == "POST":
+        dob = request.POST['dob']
+        kgs = request.POST['kgs']
+        height = request.POST['height']
+        schedule = request.POST['schedule']
+        HttpResponse(dob)
+        
+    return render(request, "authentication/donate.html")
+        
+    
 
 # def activate(request, uidb64, token):
 #     try:
