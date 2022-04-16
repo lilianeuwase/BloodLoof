@@ -73,6 +73,31 @@ def signup(request):
     return render(request, "authentication/signup.html")
 
 def signin(request):
+    # if request.method == 'POST':
+    #     username = request.POST['username']
+    #     password1 = request.POST['password1']
+        
+    #     user = authenticate(username=username, password=password1)
+        
+    #     if user is not None:
+    #         login(request, user)
+    #         fname = user.first_name
+    #         #messages.success(request, "Logged In Sucessfully!!")
+    #         return render(request, "authentication/user.html",{"fname":fname})
+    #     else:
+    #         messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
+    #         return redirect('signin')
+    
+    return render(request, "authentication/signin.html")
+
+def signout(request):
+    logout(request)
+    # messages.success(request, "You are logged out!")
+    return redirect ('home')
+
+def signin_user(request, *args, **kwargs):
+    print(args, kwargs)
+    
     if request.method == 'POST':
         username = request.POST['username']
         password1 = request.POST['password1']
@@ -89,19 +114,16 @@ def signin(request):
             return redirect('signin')
     
     return render(request, "authentication/signin.html")
-
-def signout(request):
-    logout(request)
-    # messages.success(request, "You are logged out!")
-    return redirect ('home')
-
+    
+   
+    
 def donate(request):
     if request.method == "POST":
         dob = request.POST['dob']
         kgs = request.POST['kgs']
         height = request.POST['height']
         schedule = request.POST['schedule']
-        HttpResponse(dob)
+        return HttpResponse(dob)
         
     return render(request, "authentication/donate.html")
         

@@ -49,11 +49,18 @@
         <!-- Hero content: will be in the middle -->
 
         {% if user.is_authenticated %}
-        <h3>Hello Dear {{ fname }} </h3>
-        <h4>Congratulations, You are loged in1!</h4>
-        <a href="/signout" class="button bt3 ">
-            <strong> Signout </strong>
-        </a> {% else %}
+
+        <div class="hero-body ">
+            <div class="container has-text-left ">
+                <h3 class="subtitle">Signout to return on the homepage
+                </h3>
+                <a href="/signout" class="button bt3 ">
+                    <strong> Signout </strong>
+                </a>
+            </div>
+        </div>
+
+        {% else %}
 
         <div class="hero-body ">
             <div class="container has-text-left ">
