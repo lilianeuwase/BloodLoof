@@ -1481,3 +1481,47 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_erro
 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2950
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2554
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9650
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Dr.-Ornella-MASIMBI.jpg HTTP/1.1" 200 24148
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 9330
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET / HTTP/1.1" 200 9330
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET / HTTP/1.1" 200 9330
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Dr.-Ornella-MASIMBI.jpg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 9330
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /home HTTP/1.1" 200 9330
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /home HTTP/1.1" 200 9352
+"GET /static/Images/Lisa.png HTTP/1.1" 200 210470
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET /home HTTP/1.1" 200 9352
+Not Found: /static/node_modules/bulma/bulma
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
