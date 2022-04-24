@@ -1525,3 +1525,18 @@ Not Found: /static/node_modules/bulma/bulma
 "GET /home HTTP/1.1" 200 9352
 Not Found: /static/node_modules/bulma/bulma
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 105
+"GET / HTTP/1.1" 200 9405
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 1402
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /donate HTTP/1.1" 200 2437
+"GET /dsds HTTP/1.1" 200 1402
+"GET /css/style.css HTTP/1.1" 200 1402
+"GET /static/css/style.css HTTP/1.1" 200 2095
+"GET /home HTTP/1.1" 200 9405
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 1402

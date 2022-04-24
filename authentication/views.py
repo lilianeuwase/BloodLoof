@@ -111,6 +111,9 @@ def signin_user(request, *args, **kwargs):
             return redirect('signin')
     
     return render(request, "authentication/signin.html")
+
+def error_404(request, exception):
+    return render(request, '404.html')
     
    
     
