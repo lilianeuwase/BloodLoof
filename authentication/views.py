@@ -1,15 +1,14 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth.models import User
+# from .models import User
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from Bloodloof_project import settings
 from django.core.mail import send_mail, EmailMessage
-from django.contrib.sites.shortcuts import get_current_site
-from django.template.loader import render_to_string
-from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
-from django.utils.encoding import force_bytes, force_str
-from . tokens import generate_token
+
+# from django.contrib.auth import get_user_model
+# User = get_user_model()
 
 
 # Create your views here.
@@ -23,7 +22,6 @@ def signup(request):
         fname = request.POST['fname']
         lname = request.POST['lname']
         email = request.POST['email']
-        phone_number = request.POST['phone_number']
         password1 = request.POST['password1']
         password2 = request.POST['password2']
         
@@ -54,7 +52,6 @@ def signup(request):
         myuser = User.objects.create_user(username, email, password1)
         myuser.first_name = fname
         myuser.last_name = lname
-        myuser.phone_number = phone_number
         myuser.is_active = True
         myuser.save()
         
@@ -92,7 +89,7 @@ def signin(request):
 
 def signout(request):
     logout(request)
-    # messages.success(request, "You are logged out!")
+    messages.success(request, "You are logged out!")
     return redirect ('home')
 
 def signin_user(request, *args, **kwargs):
@@ -117,15 +114,15 @@ def signin_user(request, *args, **kwargs):
     
    
     
-def donate(request):
-    if request.method == "POST":
-        dob = request.POST['dob']
-        kgs = request.POST['kgs']
-        height = request.POST['height']
-        schedule = request.POST['schedule']
-        return HttpResponse(dob)
+# def donate(request):
+#     if request.method == "POST":
+#         dob = request.POST['dob']
+#         kgs = request.POST['kgs']
+#         height = request.POST['height']
+#         schedule = request.POST['schedule']
+#         return HttpResponse(dob)
         
-    return render(request, "authentication/donate.html")
+#     return render(request, "authentication/donate.html")
         
     
 
@@ -142,6 +139,5 @@ def donate(request):
 #         myuser.save()
 #         login(request, myuser)
 #         return redirect('home')
-    
 #     else:
 #         return render(request, 'activation_failed.html')
