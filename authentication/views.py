@@ -15,7 +15,7 @@ from django.core.mail import send_mail, EmailMessage
 def home(request):
     return render(request, "authentication/homepage.html")
 
-def signup(request):
+def user_signup(request):
     
     if request.method == "POST":
         username = request.POST['username']
@@ -65,11 +65,11 @@ def signup(request):
         from_email = settings.EMAIL_HOST_USER
         to_list = [myuser.email]
         send_mail(subject, message, from_email, to_list, fail_silently=True)
-        return redirect('signin')
+        return redirect('user_signin')
         
-    return render(request, "authentication/signup.html")
+    return render(request, "authentication/user_signup.html")
 
-def signin(request):
+def user_signin(request):
     # if request.method == 'POST':
     #     username = request.POST['username']
     #     password1 = request.POST['password1']
@@ -85,14 +85,14 @@ def signin(request):
     #         messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
     #         return redirect('signin')
     
-    return render(request, "authentication/signin.html")
+    return render(request, "authentication/user_signin.html")
 
-def signout(request):
+def user_signout(request):
     logout(request)
     messages.success(request, "You are logged out!")
     return redirect ('home')
 
-def signin_user(request, *args, **kwargs):
+def user_account(request, *args, **kwargs):
     print(args, kwargs)
     
     if request.method == 'POST':
@@ -104,16 +104,25 @@ def signin_user(request, *args, **kwargs):
         if user is not None:
             login(request, user)
             fname = user.first_name
-            #messages.success(request, "Logged In Sucessfully!!")
-            return render(request, "authentication/user.html",{"fname":fname})
+            messages.success(request, "Logged In Sucessfully!!")
+            return render(request, "authentication/user_account.html",{"fname":fname})
         else:
             messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
-            return redirect('signin')
+            return redirect('user_signin')
     
-    return render(request, "authentication/signin.html")
+    return render(request, "authentication/user_signin.html")
 
 def error_404(request, exception):
-    return render(request, '404.html')
+    return render(request, 'errors/404.html')
+
+def error_500(request, exception=None):
+    return render(request, "errors/500.html", {})
+
+def error_403(request, exception=None):
+    return render(request, "errors/403.html", {})
+
+def error_400(request, exception=None):
+    return render(request, "errors/400.html", {})
     
    
     

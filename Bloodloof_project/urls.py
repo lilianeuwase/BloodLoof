@@ -28,9 +28,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('authentication.urls')),
     path('', include('donate.urls')),
+    path('', include('hospital.urls')),
     
     url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]
 
 handler404= 'authentication.views.error_404'
+handler500= 'authentication.views.error_500'
+handler403= 'authentication.views.error_403'
+handler400= 'authentication.views.error_400'

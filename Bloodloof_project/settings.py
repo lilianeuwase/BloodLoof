@@ -32,7 +32,7 @@ EMAIL_PORT = EMAIL_PORT
 SECRET_KEY = '5sfp+*esjnoyd0(7h%nupipd$$ds#p3ot)pd4k78cl$6@d96mn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'bldeployment.herokuapp.com', 'bloodloof.herokuapp.com']
 
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'donate',
+    'hospital',
 ]
 
 MIDDLEWARE = [
@@ -146,32 +147,21 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 LOGGING = {
-    # Define the logging version
     'version': 1,
-    # Enable the existing loggers
     'disable_existing_loggers': False,
-
-    # Define the handlers
     'handlers': {
         'file': {
-            'level': 'DEBUG',
+            'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': 'djangoapp.log',
-        },
-
-        'console': {
-            'class': 'logging.StreamHandler',
+            'filename': 'debug.log',
         },
     },
-
-   # Define the loggers
     'loggers': {
         'django': {
             'handlers': ['file'],
             'level': 'DEBUG',
             'propagate': True,
-
         },
     },
+    
 }
-

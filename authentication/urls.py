@@ -6,8 +6,8 @@ from . import views
 urlpatterns = [
 path('', views.home, name="home"),
 path('home', views.home, name="homepage"),
-path('signup', views.signup, name='signup'),
-path('signin', views.signin, name='signin'),
-path('signout', views.signout, name='signout'),
-path('signin_user', views.signin_user, name="signin_user"),
+path('user_signup', views.user_signup, name='user_signup'),
+path('user_signin', views.user_signin, name='user_signin'),
+path('user_signout', views.user_signout, name='user_signout'),
+path('user_account', views.user_account, name="user_account"),
 ]

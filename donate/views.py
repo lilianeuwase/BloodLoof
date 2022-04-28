@@ -5,7 +5,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.core.mail import send_mail, EmailMessage
 from django.utils import timezone
-from authentication.views import signin_user
+from authentication.views import user_account
 from django.contrib.auth.models import User
 from datetime import date, datetime
 from decimal import Decimal
@@ -28,12 +28,6 @@ def donate(request):
         if request.user.is_authenticated:
             username = request.user.username
             password = request.user.password
-            
-        # def calculate_age(dob):
-        #     today = date.today()
-        #     age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
-        #     return age
-        
         
         if Donor.objects.filter(phone_number = phone_number).exists():
             messages.error(request, "You can not make an apointment twice")
@@ -42,6 +36,14 @@ def donate(request):
         
         if len(phone_number)>14:
             messages.error(request, "Phone Number can not exceed 14 characters")
+            return redirect('donate')
+        
+        if len(weight)>6 :
+            messages.error(request, "Kindly Make Sure Your weight is a 2-digits number with at most two decimals Ex: 62.50")
+            return redirect('donate')
+        
+        if len(height)>4:
+            messages.error(request, "Kindly Make Sure Your Height is a 1-digit number with at most two decimals Ex: 1.75")
             return redirect('donate')
         
         if (datetime.strptime(available_time, '%Y-%m-%dT%H:%M') < now + timezone.timedelta(days=1)):

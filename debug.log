@@ -1,0 +1,1104 @@
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /admin/donate/donor/add/ HTTP/1.1" 200 8834
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20281
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+OK: /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 63, in __iter__
+    for row in compiler.results_iter(results):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1005, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 254, in converter
+    return create_decimal(value).quantize(quantize_value, context=expression.output_field.context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"GET /admin/donate/donor/ HTTP/1.1" 200 1389
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/css/style.css/ HTTP/1.1" 302 0
+"GET /admin/donate/donor/css/style.css/change/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5008
+"GET /home HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 1337
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+OK: /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 63, in __iter__
+    for row in compiler.results_iter(results):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1005, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 254, in converter
+    return create_decimal(value).quantize(quantize_value, context=expression.output_field.context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"GET /admin/donate/donor/ HTTP/1.1" 200 1389
+"GET /admin/donate/donor/css/style.css/ HTTP/1.1" 302 0
+"GET /admin/donate/donor/css/style.css/change/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5008
+Internal Server Error: /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 63, in __iter__
+    for row in compiler.results_iter(results):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1005, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 254, in converter
+    return create_decimal(value).quantize(quantize_value, context=expression.output_field.context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"GET /admin/donate/donor/ HTTP/1.1" 500 127934
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3588
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /signup HTTP/1.1" 200 5488
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /signin HTTP/1.1" 200 3345
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /signin_user HTTP/1.1" 200 5359
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+Not Found: /favicon.ico
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+Internal Server Error: /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 63, in __iter__
+    for row in compiler.results_iter(results):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1005, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 254, in converter
+    return create_decimal(value).quantize(quantize_value, context=expression.output_field.context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"GET /admin/donate/donor/ HTTP/1.1" 500 127337
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3588
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1969
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1969
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /signin_user HTTP/1.1" 200 3345
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /home HTTP/1.1" 200 2645
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 4834
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Internal Server Error: /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 63, in __iter__
+    for row in compiler.results_iter(results):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1005, in apply_converters
+    value = converter(value, expression, connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py", line 254, in converter
+    return create_decimal(value).quantize(quantize_value, context=expression.output_field.context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"GET /admin/donate/donor/ HTTP/1.1" 500 127954
+"GET /admin/donate/donor/ HTTP/1.1" 200 6933
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/donate/donor/14/change/ HTTP/1.1" 200 8137
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 6933
+"POST /admin/donate/donor/ HTTP/1.1" 200 4913
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 410
+"POST /admin/donate/donor/ HTTP/1.1" 302 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 3288
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6144
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6144
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 3165
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 200 1734
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/Head_Picture.png HTTP/1.1" 200 124574
+"GET /static/Images/Lisa.png HTTP/1.1" 200 210470
+"GET /static/Images/email-box.jpeg HTTP/1.1" 200 106280
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /signin HTTP/1.1" 200 3345
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /signin_user HTTP/1.1" 200 5359
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /donate HTTP/1.1" 200 3985
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/views.py", line 70, in donate
+    mydonor.save()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/base.py", line 716, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/base.py", line 747, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/base.py", line 810, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/base.py", line 860, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 709, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1379, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1048, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1345, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 1563, in get_db_prep_save
+    return connection.ops.adapt_decimalfield_value(self.to_python(value), self.max_digits, self.decimal_places)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/base/operations.py", line 521, in adapt_decimalfield_value
+    return utils.format_number(value, max_digits, decimal_places)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 239, in format_number
+    value = value.quantize(decimal.Decimal(1).scaleb(-decimal_places), context=context)
+decimal.InvalidOperation: [<class 'decimal.InvalidOperation'>]
+"POST /donate HTTP/1.1" 500 130533
+"GET /donate HTTP/1.1" 200 3985
+"POST /donate HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2980
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 4323
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/donate/donor/15/change/ HTTP/1.1" 200 9061
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /signin HTTP/1.1" 200 3345
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /signin_user HTTP/1.1" 200 5359
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /donate HTTP/1.1" 200 3985
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET / HTTP/1.1" 200 2645
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 200 75617
+Not Found: /favicon.ico
+"GET /signin_user HTTP/1.1" 200 3345
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /signin_user HTTP/1.1" 200 5359
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /donate HTTP/1.1" 200 4339
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /donate HTTP/1.1" 200 4356
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/views.py", line 68, in donate
+    mydonor = Donor.objects.create_user(phone_number, dob)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 23, in create_user
+    return self._create_user(phone_number, dob, **extra_fields)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 9, in _create_user
+    phone_number = self.cleaned_data.get("phone_number")
+AttributeError: 'UserManager' object has no attribute 'cleaned_data'
+"POST /donate HTTP/1.1" 500 79582
+"GET /admin/donate/donor/ HTTP/1.1" 200 4323
+"GET /admin/donate/donor/ HTTP/1.1" 200 4323
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /donate HTTP/1.1" 200 4356
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/views.py", line 68, in donate
+    mydonor = Donor.objects.create_user(phone_number, dob)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 23, in create_user
+    return self._create_user(phone_number, dob, **extra_fields)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 10, in _create_user
+    z = phone_number.parse(phone_number, "SG")
+AttributeError: 'str' object has no attribute 'parse'
+"POST /donate HTTP/1.1" 500 79488
+"GET /donate HTTP/1.1" 200 4356
+"GET /donate HTTP/1.1" 200 4396
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/views.py", line 68, in donate
+    mydonor = Donor.objects.create_user(phone_number, dob)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 23, in create_user
+    return self._create_user(phone_number, dob, **extra_fields)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/donate/managers.py", line 10, in _create_user
+    z = phone_number.parse(phone_number, "SG")
+AttributeError: 'str' object has no attribute 'parse'
+"POST /donate HTTP/1.1" 500 79524
+"POST /donate HTTP/1.1" 200 5748
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3588
+"GET /admin/donate/donor/ HTTP/1.1" 200 4550
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/donate/donor/16/change/ HTTP/1.1" 200 9326
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 4550
+"GET /admin/donate/donor/16/change/ HTTP/1.1" 200 9326
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /admin/donate/donor/16/delete/ HTTP/1.1" 200 3203
+"GET /admin/donate/donor/16/change/ HTTP/1.1" 200 9326
+"GET /admin/ HTTP/1.1" 200 6144
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6144
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6144
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6844
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 3194
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/add/ HTTP/1.1" 200 6283
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 3194
+"GET /admin/hospital/hospital/add/ HTTP/1.1" 200 6284
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"POST /admin/hospital/hospital/add/ HTTP/1.1" 302 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4575
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /hospital HTTP/1.1" 200 3314
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6616
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"POST /hospital HTTP/1.1" 302 0
+"GET /hospital HTTP/1.1" 200 3828
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital HTTP/1.1" 302 0
+"GET /hospital HTTP/1.1" 200 3828
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital HTTP/1.1" 302 0
+"GET /hospital HTTP/1.1" 200 3828
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital HTTP/1.1" 302 0
+"GET /hospital HTTP/1.1" 200 3828
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /hospital HTTP/1.1" 200 3323
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital HTTP/1.1" 302 0
+"GET /hospital HTTP/1.1" 200 3828
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /hospital HTTP/1.1" 200 3300
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 200 75617
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4376
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6616
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+Internal Server Error: /hospital
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/hospital/views.py", line 25, in hospital
+    login(request, user)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 214, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /hospital HTTP/1.1" 500 77640
+"GET /hospital HTTP/1.1" 200 3300
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/Images/Background2.jpeg HTTP/1.1" 200 75617
+Internal Server Error: /hospital
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/hospital/views.py", line 23, in hospital
+    login(request, user)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 126, in login
+    request.session[SESSION_KEY] = user._meta.pk.value_to_string(user)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 214, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute '_meta'
+"POST /hospital HTTP/1.1" 500 77644
+"GET / HTTP/1.1" 200 2645
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+Not Found: /sighout
+"GET /sighout HTTP/1.1" 404 3576
+"GET /signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9724
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 9419
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Lisa.png HTTP/1.1" 200 210470
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3351
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /user_signup HTTP/1.1" 200 5498
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /user_signin HTTP/1.1" 200 3351
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/OneDrive - IU International University of Applied Sciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py", line 108, in user_account
+    return render(request, "authentication/user.html",{"fname":fname})
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: authentication/user.html
+"POST /user_account HTTP/1.1" 500 84028
+Forbidden (CSRF token missing or incorrect.): /user_account
+"POST /user_account HTTP/1.1" 403 2513
+Forbidden (CSRF token missing or incorrect.): /user_account
+"POST /user_account HTTP/1.1" 403 2513
+Forbidden (CSRF token missing or incorrect.): /user_account
+"POST /user_account HTTP/1.1" 403 2513
+Forbidden (CSRF token missing or incorrect.): /user_account
+"POST /user_account HTTP/1.1" 403 2513
+Not Found: /signin
+"GET /signin HTTP/1.1" 404 3807
+Not Found: /signin
+"GET /signin HTTP/1.1" 404 3807
+"GET / HTTP/1.1" 200 9419
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3351
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /user_account HTTP/1.1" 200 5688
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9739
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /user_signup HTTP/1.1" 200 5498
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /user_signin HTTP/1.1" 200 3351
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /user_account HTTP/1.1" 200 5688
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /donate HTTP/1.1" 200 4413
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+Not Found: /hospital
+"GET /hospital HTTP/1.1" 404 3813
+"GET /hospital_signin HTTP/1.1" 200 3313
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+Not Found: /hospital_account
+"POST /hospital_account HTTP/1.1" 404 3838
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3818
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /hospital_account HTTP/1.1" 302 0
+"GET /hospital_signin HTTP/1.1" 200 3313
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital_account HTTP/1.1" 200 6
+"POST /hospital_account HTTP/1.1" 200 32
+"POST /hospital_account HTTP/1.1" 200 16
+"POST /hospital_account HTTP/1.1" 200 16
+"POST /hospital_account HTTP/1.1" 200 33
+"POST /hospital_account HTTP/1.1" 200 4
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1969
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1969
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6909
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4376
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6616
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4376
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6111
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+Internal Server Error: /admin/hospital/hospital/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: hospital_hospital.password
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 81, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: hospital_hospital.password
+"GET /admin/hospital/hospital/ HTTP/1.1" 500 159194
+"GET /admin/ HTTP/1.1" 200 6909
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 6909
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+Internal Server Error: /admin/hospital/hospital/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: hospital_hospital.password
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1803, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 250, in __len__
+    self._fetch_all()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 1183, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1061, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 81, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 296, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: hospital_hospital.password
+"GET /admin/hospital/hospital/ HTTP/1.1" 500 159300
+"GET /admin/ HTTP/1.1" 200 6909
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4376
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6763
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"POST /admin/hospital/hospital/1/change/ HTTP/1.1" 302 0
+"GET /admin/hospital/hospital/ HTTP/1.1" 200 4577
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+"GET /admin/hospital/hospital/1/change/ HTTP/1.1" 200 6775
+"GET /admin/jsi18n/ HTTP/1.1" 200 3185
+"GET /hospital_signin HTTP/1.1" 200 3313
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1797
+"POST /hospital_account HTTP/1.1" 200 4
+"POST /hospital_account HTTP/1.1" 200 4
+"GET /admin/hospital/hospital/1/change/password/ HTTP/1.1" 302 0
+"GET /admin/hospital/hospital/1/change/password/change/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7156
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
