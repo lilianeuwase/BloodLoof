@@ -123,6 +123,12 @@ def error_403(request, exception=None):
 
 def error_400(request, exception=None):
     return render(request, "errors/400.html", {})
+
+def change_password(request, *args, **kwargs):
+    print(args, kwargs)
+    myuser = User.objects.get(username='john')
+    myuser.set_password('new password')
+    myuser.save()
     
    
     

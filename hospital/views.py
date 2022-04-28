@@ -17,6 +17,7 @@ def hospital_account(request, *args, **kwargs):
         email = request.POST['email']
         password = request.POST['password']
         
+        
         user = authenticate(email=email, password=password)
         
         
