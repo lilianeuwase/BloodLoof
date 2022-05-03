@@ -1,7 +1,7 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth.models import User
-# from .models import User
+from donate.models import Donor
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from Bloodloof_project import settings
@@ -18,20 +18,20 @@ def home(request):
 def user_signup(request):
     
     if request.method == "POST":
-        username = request.POST['username']
+        username = request.POST['username'].lower()
         fname = request.POST['fname']
         lname = request.POST['lname']
-        email = request.POST['email']
+        email = request.POST['email'].lower()
         password1 = request.POST['password1']
         password2 = request.POST['password2']
         
         if User.objects.filter(username = username):
             messages.error(request, "Username already exists, Please choose another username")
-            return redirect('home')
+            return redirect('user_signup')
         
         if User.objects.filter(email = email).exists():
             messages.error(request, "Email already exists, Please sign in if you already has an account")
-            return redirect('home')
+            return redirect('user_signup')
         
         # if User.objects.filter(number = number).exists():
         #     messages.error(request, "Phone number already exists, Please sign in if you already has an account")
@@ -39,15 +39,15 @@ def user_signup(request):
         
         if len(username)>10:
             messages.error(request, "Username can not exceed 10 characters")
-            return redirect('home')
+            return redirect('user_signup')
             
         if password1 !=password2:
             messages.error(request, "Passwords do not match")
-            return redirect('home')
+            return redirect('user_signup')
             
         if not username.isalnum():
             messages.error(request, "Username must be Alpha-Numeric!!")
-            return redirect('home')
+            return redirect('user_signup')
             
         myuser = User.objects.create_user(username, email, password1)
         myuser.first_name = fname
@@ -56,8 +56,6 @@ def user_signup(request):
         myuser.save()
         
         messages.success(request, "Account Successfully Created!!")
-        
-        # Welcome and Confirmation Email
         
         # Welcome Email
         subject = "Welcome to BloodLoof Login!!"
@@ -96,21 +94,48 @@ def user_account(request, *args, **kwargs):
     print(args, kwargs)
     
     if request.method == 'POST':
-        username = request.POST['username']
+        username = request.POST['username'].lower()
         password1 = request.POST['password1']
         
         user = authenticate(username=username, password=password1)
         
         if user is not None:
-            login(request, user)
-            fname = user.first_name
-            messages.success(request, "Logged In Sucessfully!!")
-            return render(request, "authentication/user_account.html",{"fname":fname})
+            if user.is_staff == False:
+                login(request, user)
+                fname = user.first_name
+                messages.success(request, "Logged In Sucessfully!!")
+                return render(request, "authentication/user_account.html",{"fname":fname})
+            
+            elif user.is_staff == True:
+                login(request, user)
+                hospital_name = user.username.lower()
+                messages.success(request, "Logged In Sucessfully!!")
+                
+                # Get Donors' list
+                butaro_list = Donor.objects.filter(hospital='Butaro District Hospital').values_list('username', flat=True)
+                musanze_list = Donor.objects.filter(hospital='Musanze District Hospital').values_list('username', flat=True)
+                faisal_list = Donor.objects.filter(hospital='King Faisal Hospital').values_list('username', flat=True)
+                
+                if(hospital_name == 'butaro_hospital'):
+                    return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name, "hospital_list":butaro_list})
+                
+                elif(hospital_name == 'musanze_hospital'):
+                    return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name}, {"hospital_list":musanze_list})
+                
+                elif(hospital_name == 'faisal_hospital'):
+                    return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name}, {"hospital_list":faisal_list})
+                
         else:
-            messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
+            messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!, for hospital sign ups kindly email us @thebloodloof")
             return redirect('user_signin')
     
     return render(request, "authentication/user_signin.html")
+
+def continue_page(request, *args, **kwargs):
+    print(args, kwargs)
+    
+    if request.method == 'POST':
+        return render(request, "authentication/user_account.html")
 
 def error_404(request, exception):
     return render(request, 'errors/404.html')

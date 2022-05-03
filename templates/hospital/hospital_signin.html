@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <title>Sign In</title>
+    <title>Hospital Sign In</title>
 </head>
 
 <body>
@@ -64,9 +64,9 @@
                 <form class="box mb-2" method="post" action="/hospital_account">
                     {% csrf_token %}
                     <div class="field">
-                        <label class="label" for="email">Email</label>
+                        <label class="label" for="username">Username</label>
                         <div class="control">
-                            <input class="input" type="text" id="email" name="email" placeholder="Hospital Email" Required>
+                            <input class="input" type="text" id="username" name="username" placeholder="Hospital Username" Required>
                         </div>
                     </div>
 

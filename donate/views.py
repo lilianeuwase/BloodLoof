@@ -1,3 +1,4 @@
+from Bloodloof_project import settings
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from .models import Donor
@@ -28,9 +29,12 @@ def donate(request):
         if request.user.is_authenticated:
             username = request.user.username
             password = request.user.password
+            email = request.user.email
+            fname = request.user.first_name
+
         
-        if Donor.objects.filter(phone_number = phone_number).exists():
-            messages.error(request, "You can not make an apointment twice")
+        if Donor.objects.filter(username = username).exists():
+            messages.error(request, "You can not make an apointment twice in less than 2 months")
             return redirect('home')
         
         
@@ -68,26 +72,23 @@ def donate(request):
         mydonor = Donor.objects.create_user(phone_number, dob)
         
         mydonor.weight = weight
+        mydonor.password = password
         mydonor.height = height
         mydonor.available_time = available_time
-        mydonor.username = username
-        mydonor.password = password
         mydonor.address = address
         mydonor.hospital = hospital
+        mydonor.username = username
         mydonor.is_active = True
         mydonor.save()
         
         messages.success(request, "You have registered for a Blood Donation session, You will receive a confirmation on your email")
-        return render(request, "authentication/user.html")
-        
-        # Welcome and Confirmation Email
         
         # Welcome Email
-        # subject = "Welcome to BloodLoof Login!!"
-        # message = "Hello " + myuser.first_name + "!! \n" + "Welcome to BloodLoof!! \nThank you"        
-        # from_email = settings.EMAIL_HOST_USER
-        # to_list = [myuser.email]
-        # send_mail(subject, message, from_email, to_list, fail_silently=True)
-        # return redirect('signin_user')
+        subject = "Thank your for your blood donation initiative"
+        message = "Hello " + fname+ "!! \n" + "We have received your sign up for blood donation, we will reach out within the next 24 hours with a confirmation \nThank you"        
+        from_email = settings.EMAIL_HOST_USER
+        to_list = [email]
+        send_mail(subject, message, from_email, to_list, fail_silently=True)
+        return render(request, "authentication/user_account.html")
         
     return render(request, "donate/donate.html")

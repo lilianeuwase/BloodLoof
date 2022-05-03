@@ -25,8 +25,8 @@ class Migration(migrations.Migration):
             options={
                 'abstract': False,
             },
-            managers=[
-                ('objects', hospital.managers.UserManager()),
-            ],
+            # managers=[
+            #     ('objects', hospital.managers.UserManager()),
+            # ],
         ),
     ]

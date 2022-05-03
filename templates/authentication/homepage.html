@@ -64,9 +64,14 @@
                 <a href="/user_signout" class="button bt3 ">
                     <strong> Signout </strong>
                 </a>
-                <a href="/user_account" class="button bt1 ">
-                    <strong> Continue </strong>
-                </a>
+
+                <form class="box mb-2" method="post" action="/continue_page">
+                    {% csrf_token %}
+
+                    <button type="submit" class="button bt1 ">Continue</button>
+
+                </form>
+
             </div>
         </div>
 
