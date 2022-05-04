@@ -9,6 +9,7 @@ import uuid
 # Create your models here.
 class Donor(AbstractBaseUser):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    full_name = models.CharField(max_length=100, null=True)
     username = models.CharField(max_length=100, null=True)
     phone_number = models.CharField(max_length=14, null=True)
     dob = models.DateField(max_length=12, null=True)

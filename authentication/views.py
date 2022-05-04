@@ -6,6 +6,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from Bloodloof_project import settings
 from django.core.mail import send_mail, EmailMessage
+from django.views.decorators.csrf import csrf_exempt
 
 # from django.contrib.auth import get_user_model
 # User = get_user_model()
@@ -90,6 +91,7 @@ def user_signout(request):
     messages.success(request, "You are logged out!")
     return redirect ('home')
 
+@csrf_exempt
 def user_account(request, *args, **kwargs):
     print(args, kwargs)
     
@@ -112,12 +114,36 @@ def user_account(request, *args, **kwargs):
                 messages.success(request, "Logged In Sucessfully!!")
                 
                 # Get Donors' list
-                butaro_list = Donor.objects.filter(hospital='Butaro District Hospital').values_list('username', flat=True)
-                musanze_list = Donor.objects.filter(hospital='Musanze District Hospital').values_list('username', flat=True)
-                faisal_list = Donor.objects.filter(hospital='King Faisal Hospital').values_list('username', flat=True)
+                butaro_list = list(filter(None,Donor.objects.filter(hospital='Butaro District Hospital').values_list('donated', 'phone_number', 'weight', 'height', 'available_time', 'dob', 'address', 'full_name')))
+                musanze_list = list(filter(None,Donor.objects.filter(hospital='Musanze District Hospital').values_list('username', flat=True)))
+                faisal_list = list(filter(None,Donor.objects.filter(hospital='King Faisal Hospital').values_list('username', flat=True)))
                 
                 if(hospital_name == 'butaro_hospital'):
-                    return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name, "hospital_list":butaro_list})
+                    n=0
+                    for i in butaro_list:
+                        donor_donated = butaro_list[n][0]
+                        donor_phone_number = butaro_list[n][1]
+                        donor_weight = butaro_list[n][2]
+                        donor_height = butaro_list[n][3]
+                        donor_available_time = butaro_list[n][4]
+                        donor_dob = butaro_list[n][5]
+                        donor_address = butaro_list[n][6]
+                        donor_full_name = butaro_list[n][7]
+                        donor_hospital='Butaro District Hospital'
+                        n=+1
+                        loop_n = ""+"a"
+                            
+                        return render(request, "hospital/hospital_account.html",{"donor_donated":donor_donated,
+                                                                                 "donor_full_name":donor_full_name,
+                                                                             "donor_phone_number":donor_phone_number,
+                                                                             "donor_weight":donor_weight,
+                                                                             "donor_height":donor_height,
+                                                                             "donor_available_time":donor_available_time,
+                                                                             "donor_dob":donor_dob,
+                                                                             "donor_address":donor_address,
+                                                                             "donor_hospital":donor_hospital,
+                                                                             "n":n})
+                    return render(request, "hospital/hospital_account.html", {"loop_n":loop_n})
                 
                 elif(hospital_name == 'musanze_hospital'):
                     return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name}, {"hospital_list":musanze_list})
@@ -131,11 +157,15 @@ def user_account(request, *args, **kwargs):
     
     return render(request, "authentication/user_signin.html")
 
-def continue_page(request, *args, **kwargs):
-    print(args, kwargs)
+# def continue_page(request, *args, **kwargs):
+#     print(args, kwargs)
     
-    if request.method == 'POST':
-        return render(request, "authentication/user_account.html")
+#     user = authenticate(username=user_account.username, password=user_account.password1)
+#     if request.method == 'POST':
+#         if user.is_staff == False:
+#             return render(request, "authentication/user_account.html")
+#         else:
+#             return render(request, "hospital/hospital_account.html")
 
 def error_404(request, exception):
     return render(request, 'errors/404.html')

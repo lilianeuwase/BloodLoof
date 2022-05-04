@@ -31,6 +31,7 @@ def donate(request):
             password = request.user.password
             email = request.user.email
             fname = request.user.first_name
+            full_name = request.user.get_full_name
 
         
         if Donor.objects.filter(username = username).exists():
@@ -78,6 +79,7 @@ def donate(request):
         mydonor.address = address
         mydonor.hospital = hospital
         mydonor.username = username
+        mydonor.full_name = full_name
         mydonor.is_active = True
         mydonor.save()
         

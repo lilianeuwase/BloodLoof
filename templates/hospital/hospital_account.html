@@ -64,11 +64,12 @@
                                 </strong>
                             <br>
                         </h2>
-                        <a href="/donate" class="button bt2 ">
+                        <a href="/appointhments" class="button bt2 ">
                             <strong> Appointhments </strong>
                         </a>
+
                         <h1 class="title is-size-3 ">
-                            Hello {{ hospital_list }},
+                            Hello {{ donor_phone_number }},
                         </h1>
 
                     </div>
@@ -90,6 +91,67 @@
                     </div>
                 </div>
             </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><abbr title="number">Donor</abbr></th>
+                        <th><abbr title="full_name">Full Name</abbr></th>
+                        <th><abbr title="phone_number">Phone Number</abbr></th>
+                        <th><abbr title="weight">Weight</abbr></th>
+                        <th><abbr title="height">Height</abbr></th>
+                        <th><abbr title="time">Time</abbr></th>
+                        <th><abbr title="dob">DOB</abbr></th>
+                        <th><abbr title="address">Address</abbr></th>
+                        <th><abbr title="hospital">Registered Hospital</abbr></th>
+                        <th><abbr title="hospital">Donated</abbr></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th><abbr title="number">Donor</abbr></th>
+                        <th><abbr title="full_name">Full Name</abbr></th>
+                        <th><abbr title="phone_number">Phone Number</abbr></th>
+                        <th><abbr title="weight">Weight</abbr></th>
+                        <th><abbr title="height">Height</abbr></th>
+                        <th><abbr title="time">Time</abbr></th>
+                        <th><abbr title="dob">DOB</abbr></th>
+                        <th><abbr title="address">Address</abbr></th>
+                        <th><abbr title="hospital">Registered Hospital</abbr></th>
+                        <th><abbr title="hospital">Donated</abbr></th>
+                    </tr>
+                </tfoot>
+                <tbody>
+
+
+                    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert ">
+                        <tr>
+                            <th>{{n}}</th>
+                            <td>{{donor_full_name}}</td>
+                            <td>{{donor_phone_number}}</td>
+                            <td>{{donor_weight}}</td>
+                            <td>{{donor_height}}</td>
+                            <td>{{donor_available_time}}</td>
+                            <td>{{donor_dob}}</td>
+                            <td>{{donor_address}}</td>
+                            <td>{{donor_hospital}}</td>
+                            <td>{{donor_donated}}</td>
+                        </tr>
+                    </div>
+                    <tr class="is-selected">
+                        <th>4</th>
+                        <td><a href="https://en.wikipedia.org/wiki/Manchester_City_F.C." title="Manchester City F.C.">Manchester City</a></td>
+                        <td>38</td>
+                        <td>19</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>71</td>
+                        <td>41</td>
+                        <td>+30</td>
+                        <td>66</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </div>
     </section>
