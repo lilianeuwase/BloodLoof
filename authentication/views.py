@@ -7,6 +7,7 @@ from django.contrib.auth import authenticate, login, logout
 from Bloodloof_project import settings
 from django.core.mail import send_mail, EmailMessage
 from django.views.decorators.csrf import csrf_exempt
+from json import dumps
 
 # from django.contrib.auth import get_user_model
 # User = get_user_model()
@@ -117,24 +118,55 @@ def user_account(request, *args, **kwargs):
                 butaro_list = list(filter(None,Donor.objects.filter(hospital='Butaro District Hospital').values_list('donated', 'phone_number', 'weight', 'height', 'available_time', 'dob', 'address', 'full_name')))
                 musanze_list = list(filter(None,Donor.objects.filter(hospital='Musanze District Hospital').values_list('username', flat=True)))
                 faisal_list = list(filter(None,Donor.objects.filter(hospital='King Faisal Hospital').values_list('username', flat=True)))
+        
                 
                 if(hospital_name == 'butaro_hospital'):
+                    
+                #     dataDictionary = {
+                #     'hello': 'World',
+                #     'geeks': 'forgeeks',
+                #     'ABC': 123,
+                #     456: 'abc',
+                #     14000605: 1,
+                #     'list': ['geeks', 4, 'geeks'],
+                #     'dictionary': {'you': 'can', 'send': 'anything', 3: 1}
+                # }
+                #     # dump data
+                #     dataJSON = dumps(dataDictionary)
+                #     return render(request,  "hospital/hospital_account.html", {'data': dataJSON})
+
                     n=0
-                    for i in butaro_list:
-                        donor_donated = butaro_list[n][0]
-                        donor_phone_number = butaro_list[n][1]
-                        donor_weight = butaro_list[n][2]
-                        donor_height = butaro_list[n][3]
-                        donor_available_time = butaro_list[n][4]
-                        donor_dob = butaro_list[n][5]
-                        donor_address = butaro_list[n][6]
-                        donor_full_name = butaro_list[n][7]
-                        donor_hospital='Butaro District Hospital'
-                        n=+1
-                        loop_n = ""+"a"
+                    loop_n = ""
+                    
+                    # Declare the donor's details
+                    list_size = len(butaro_list)
+                    donor_donated = [None]*list_size
+                    donor_phone_number = [None]*list_size
+                    donor_weight = [None]*list_size
+                    donor_height = [None]*list_size
+                    donor_available_time = [None]*list_size
+                    donor_dob = [None]*list_size
+                    donor_address = [None]*list_size
+                    donor_full_name = [None]*list_size
+                
+                    for items in butaro_list:
+                        donor_donated[n] = butaro_list[n][0]
+                        donor_phone_number[n] = butaro_list[n][1]
+                        donor_weight[n] = butaro_list[n][2]
+                        donor_height[n] = butaro_list[n][3]
+                        donor_available_time[n] = butaro_list[n][4]
+                        donor_dob[n] = butaro_list[n][5]
+                        donor_address[n] = butaro_list[n][6]
+                        donor_full_name[n] = butaro_list[n][7]
+                        donor_hospital ='Butaro District Hospital'
+                        
+                        n=n+1
+                        loop_n = loop_n+"a"
+                        
+                    trial = dumps(donor_full_name)
                             
-                        return render(request, "hospital/hospital_account.html",{"donor_donated":donor_donated,
-                                                                                 "donor_full_name":donor_full_name,
+                    return render(request, "hospital/hospital_account.html",{"donor_donated":donor_donated,
+                                                                                 "data":trial,
                                                                              "donor_phone_number":donor_phone_number,
                                                                              "donor_weight":donor_weight,
                                                                              "donor_height":donor_height,
@@ -142,8 +174,7 @@ def user_account(request, *args, **kwargs):
                                                                              "donor_dob":donor_dob,
                                                                              "donor_address":donor_address,
                                                                              "donor_hospital":donor_hospital,
-                                                                             "n":n})
-                    return render(request, "hospital/hospital_account.html", {"loop_n":loop_n})
+                                                                             "n":n, "loop_n":loop_n})
                 
                 elif(hospital_name == 'musanze_hospital'):
                     return render(request, "hospital/hospital_account.html",{"hospital_name":hospital_name}, {"hospital_list":musanze_list})
