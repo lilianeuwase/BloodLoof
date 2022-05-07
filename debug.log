@@ -4866,3 +4866,109 @@ Not Found: /favicon.ico
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
 "POST /user_account HTTP/1.1" 200 9320
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /user_account HTTP/1.1" 200 9506
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9740
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+Forbidden (Permission denied): /admin/donate/donor/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1923, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+"GET /admin/donate/donor/ HTTP/1.1" 200 1026
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/css/style.css/ HTTP/1.1" 302 0
+Forbidden (Permission denied): /admin/donate/donor/css/style.css/change/
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 683, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1888, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1745, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1775, in _changeform_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+"GET /admin/donate/donor/css/style.css/change/ HTTP/1.1" 200 1026
+"POST /user_account HTTP/1.1" 200 9740
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9738
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3350
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9715
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/donate/donor/ HTTP/1.1" 200 7567
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"POST /user_account HTTP/1.1" 200 9574
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9590
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9626
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932

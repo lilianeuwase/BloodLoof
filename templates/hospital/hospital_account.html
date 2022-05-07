@@ -97,8 +97,8 @@
                         <th><abbr title="phone_number">Phone Number</abbr></th>
                         <th><abbr title="weight">Weight</abbr></th>
                         <th><abbr title="height">Height</abbr></th>
-                        <th><abbr title="time">Time</abbr></th>
-                        <th><abbr title="dob">DOB</abbr></th>
+                        <th><abbr title="time">Available Time</abbr></th>
+                        <th><abbr title="dob">Date Of Birth (DOB)</abbr></th>
                         <th><abbr title="address">Address</abbr></th>
                         <th><abbr title="hospital">Registered Hospital</abbr></th>
                         <th><abbr title="hospital">Donated</abbr></th>
@@ -111,8 +111,8 @@
                         <th><abbr title="phone_number">Phone Number</abbr></th>
                         <th><abbr title="weight">Weight</abbr></th>
                         <th><abbr title="height">Height</abbr></th>
-                        <th><abbr title="time">Time</abbr></th>
-                        <th><abbr title="dob">DOB</abbr></th>
+                        <th><abbr title="time">Available Time</abbr></th>
+                        <th><abbr title="dob">Date Of Birth (DOB)</abbr></th>
                         <th><abbr title="address">Address</abbr></th>
                         <th><abbr title="hospital">Registered Hospital</abbr></th>
                         <th><abbr title="hospital">Donated</abbr></th>
@@ -124,7 +124,8 @@
                     <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert ">
                         <tr>
                             <th>{{forloop.counter}}</th>
-                            <td>{{full_name}}</td>
+                            <td><a href="/admin/donate/donor/" title="Leicester City F.C.">{{full_name}}</a>
+                            </td>
                             <td>{{phone_number}}</td>
                             <td>{{weight}}</td>
                             <td>{{height}}</td>
