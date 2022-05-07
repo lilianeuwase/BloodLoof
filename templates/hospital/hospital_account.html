@@ -57,8 +57,9 @@
                 <div class="tile is-4 is-vertical is-parent">
                     <div class="tile is-child box">
                         <h1 class="title is-size-3 ">
-                            Hello {{ hospital_name }},
+                            Hello {{ hospital }},
                         </h1>
+                        <h2></h2>
                         <h2 class="subtitle is-size-7 has-text-weight-bold ">
                             <strong>Blood is essential to help patients survive surgeries, cancer treatment, chronic illnesses, and traumatic injuries. This lifesaving care starts with one person making a generous donation. The need for blood is constant. But only about 3% of age-eligible people donate blood yearly
                                 </strong>
@@ -67,10 +68,6 @@
                         <a href="#appointments" class="button bt2 ">
                             <strong> Appointments </strong>
                         </a>
-
-                        <h1 class="title is-size-3 ">
-                            Hello {{ donor_phone_number }},
-                        </h1>
 
                     </div>
                     <div class="tile is-child box">
@@ -123,20 +120,19 @@
                 </tfoot>
                 <tbody>
 
-                    {% for message in loop_n %}
+                    {% for donated, phone_number, weight, height, available_time, dob, address, full_name in hospital_list %}
                     <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert ">
                         <tr>
-                            <th>{{n}}</th>
-                            <td>{{donor_full_name}}</td>
-                            <td>{{donor_phone_number}}</td>
-                            <td>{{donor_weight}}</td>
-                            <td>{{donor_height}}</td>
-                            <td>{{donor_available_time}}</td>
-                            <td>{{donor_dob}}</td>
-                            <td>{{donor_address}}</td>
-                            <td>{{donor_hospital}}</td>
-                            <td>{{donor_donated}}</td>
-                            <td id='neatdata'></td>
+                            <th>{{forloop.counter}}</th>
+                            <td>{{full_name}}</td>
+                            <td>{{phone_number}}</td>
+                            <td>{{weight}}</td>
+                            <td>{{height}}</td>
+                            <td>{{available_time}}</td>
+                            <td>{{dob}}</td>
+                            <td>{{address}}</td>
+                            <td>{{hospital}}</td>
+                            <td>{{donated}}</td>
                         </tr>
                     </div>
                     {% endfor %}
@@ -170,39 +166,6 @@
 
     <script src="" async defer></script>
 
-
-    <div style="width: 40%;
-    border: 1px solid black;
-    background-color: lightcyan;
-    font-family: Helvetica, sans-serif;">
-        <div style="margin: 5%;">
-            <h1>
-                <u>Dictionary Data</u>
-            </h1>
-            <h2>
-                <u>All Data</u>
-            </h2>
-
-            <h2>
-                <u>Neat Data</u>
-            </h2>
-            <h4 id='neatdata'>
-                <h4 id='alldata'></h4><br></h4>
-
-        </div>
-    </div>
-
-
 </body>
 
 </html>
-
-<script>
-    var data = JSON.parse("{{data|escapejs}}");
-    var dataNode = document.getElementById('alldata');
-    dataNode.innerHTML += "{{data|escapejs}}";
-    dataNode = document.getElementById('neatdata');
-    for (var x in data) {
-        dataNode.innerHTML += data[x] + '<br><br>';
-    }
-</script>

@@ -4704,3 +4704,165 @@ Watching for file changes with StatReloader
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
 "POST /user_account HTTP/1.1" 200 11913
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2993
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4148
+"GET /user_account HTTP/1.1" 200 3350
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 11913
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 8286
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 11802
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 8659
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 9328
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 9358
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 7343
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 4
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 4
+"POST /user_account HTTP/1.1" 200 4
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 3
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 10657
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 4
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 3
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 475
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 613
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 10657
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_account HTTP/1.1" 200 9240
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9264
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9296
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9298
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET / HTTP/1.1" 200 2993
+"GET /static/css/main.css HTTP/1.1" 200 1734
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 200 63576
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 55135)
+
+"GET /user_account HTTP/1.1" 200 3350
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+"GET /admin/auth/user/ HTTP/1.1" 200 10159
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9738
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3350
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 7946
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9738
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3350
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9320
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
