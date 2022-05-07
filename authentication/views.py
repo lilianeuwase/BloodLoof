@@ -1,3 +1,4 @@
+# Import Libraries
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth.models import User
@@ -9,14 +10,11 @@ from django.core.mail import send_mail, EmailMessage
 from django.views.decorators.csrf import csrf_exempt
 from json import dumps
 
-# from django.contrib.auth import get_user_model
-# User = get_user_model()
-
-
 # Create your views here.
 def home(request):
     return render(request, "authentication/homepage.html")
 
+# user_signup function will be used by Users and Hospitals to sign up to BloodLoof
 def user_signup(request):
     
     if request.method == "POST":
@@ -87,11 +85,13 @@ def user_signin(request):
     
     return render(request, "authentication/user_signin.html")
 
+# user_signout function will be used by Users and Hospitals to signout to BloodLoof
 def user_signout(request):
     logout(request)
     messages.success(request, "You are logged out!")
     return redirect ('home')
 
+# user_account function will be used by Users and Hospitals to navigate their accounts
 @csrf_exempt
 def user_account(request, *args, **kwargs):
     print(args, kwargs)
@@ -143,16 +143,7 @@ def user_account(request, *args, **kwargs):
     
     return render(request, "authentication/user_signin.html")
 
-# def continue_page(request, *args, **kwargs):
-#     print(args, kwargs)
-    
-#     user = authenticate(username=user_account.username, password=user_account.password1)
-#     if request.method == 'POST':
-#         if user.is_staff == False:
-#             return render(request, "authentication/user_account.html")
-#         else:
-#             return render(request, "hospital/hospital_account.html")
-
+# Error functions will be used to deal with the 404, 500, 403 and 400 errors
 def error_404(request, exception):
     return render(request, 'errors/404.html')
 
@@ -165,38 +156,10 @@ def error_403(request, exception=None):
 def error_400(request, exception=None):
     return render(request, "errors/400.html", {})
 
+# change_password function will be used by Users and Hospitals to change passwords of their BloodLoof accounts
 def change_password(request, *args, **kwargs):
     print(args, kwargs)
     myuser = User.objects.get(username='john')
     myuser.set_password('new password')
     myuser.save()
     
-   
-    
-# def donate(request):
-#     if request.method == "POST":
-#         dob = request.POST['dob']
-#         kgs = request.POST['kgs']
-#         height = request.POST['height']
-#         schedule = request.POST['schedule']
-#         return HttpResponse(dob)
-        
-#     return render(request, "authentication/donate.html")
-        
-    
-
-# def activate(request, uidb64, token):
-#     try:
-#         uid = force_str(urlsafe_base64_decode(uidb64))
-#         myuser = User.objects.get(pk=uid)
-        
-#     except (TypeError, ValueError, OverflowError, User.DoesNotExist):
-#         myuser = None
-        
-#     if myuser is not None and generate_token.check_token(myuser, token):
-#         myuser.is_activate = True
-#         myuser.save()
-#         login(request, myuser)
-#         return redirect('home')
-#     else:
-#         return render(request, 'activation_failed.html')
