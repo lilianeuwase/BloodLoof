@@ -31,7 +31,7 @@ def donate(request):
             password = request.user.password
             email = request.user.email
             fname = request.user.first_name
-            full_name = request.user.get_full_name
+            full_name = request.user.full_name
 
         
         if Donor.objects.filter(username = username).exists():

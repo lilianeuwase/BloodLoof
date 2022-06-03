@@ -33,10 +33,6 @@ def user_signup(request):
             messages.error(request, "Email already exists, Please sign in if you already has an account")
             return redirect('user_signup')
         
-        # if User.objects.filter(number = number).exists():
-        #     messages.error(request, "Phone number already exists, Please sign in if you already has an account")
-        #     return redirect('home')
-        
         if len(username)>10:
             messages.error(request, "Username can not exceed 10 characters")
             return redirect('user_signup')
@@ -68,20 +64,6 @@ def user_signup(request):
     return render(request, "authentication/user_signup.html")
 
 def user_signin(request):
-    # if request.method == 'POST':
-    #     username = request.POST['username']
-    #     password1 = request.POST['password1']
-        
-    #     user = authenticate(username=username, password=password1)
-        
-    #     if user is not None:
-    #         login(request, user)
-    #         fname = user.first_name
-    #         #messages.success(request, "Logged In Sucessfully!!")
-    #         return render(request, "authentication/user.html",{"fname":fname})
-    #     else:
-    #         messages.error(request, "You entered a wrong Username or Password!!! \n Sign Up If you do not have an account!!!")
-    #         return redirect('signin')
     
     return render(request, "authentication/user_signin.html")
 
@@ -157,9 +139,26 @@ def error_400(request, exception=None):
     return render(request, "errors/400.html", {})
 
 # change_password function will be used by Users and Hospitals to change passwords of their BloodLoof accounts
+def change_password_page(request, *args, **kwargs):
+    return render(request, 'authentication/change_password_page.html')
+
 def change_password(request, *args, **kwargs):
     print(args, kwargs)
-    myuser = User.objects.get(username='john')
-    myuser.set_password('new password')
-    myuser.save()
+    
+    if request.method == 'POST':
+        username = request.POST['username']
+        newpassword = request.POST['newpassword']
+        newpassword1 = request.POST['newpassword1']
+        
+        if (newpassword != newpassword1):
+            messages.error(request, "Password does not match")
+            return redirect('change_password_page')
+            
+        else:
+            myuser = User.objects.get(username=username)
+            myuser.set_password(newpassword)
+            myuser.save()
+            
+            messages.success(request, "Password Changed!!")
+            return redirect('user_signin')
     
