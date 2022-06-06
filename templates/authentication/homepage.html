@@ -69,13 +69,6 @@
                     <strong> Continue </strong>
                 </a>
 
-                <!-- <form class="box mb-2" method="post" action="/continue_page">
-                    {% csrf_token %}
-
-                    <button type="submit" class="button bt1 ">Continue</button>
-
-                </form> -->
-
             </div>
         </div>
 
@@ -94,6 +87,7 @@
                 </h2>
 
                 <a href="/user_signup" class="button bt2 ">
+                    <i class="fas fa-check"></i>
                     <strong> Sign Up </strong>
                 </a>
             </div>
@@ -130,7 +124,7 @@
 
                 <div class="column has-text-centered ">
                     <figure class="image is-inline-block is-128x128 ">
-                        <img class="is-center " src="">
+                        <img class="is-center " src="{% static 'Images/Masimbi.jpeg' %}">
                     </figure>
                     <p>
                         <strong> Masimbi Ornella</strong>
@@ -261,6 +255,18 @@
         </div>
     </footer>
     {% endif %}
+
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+
+        for (i = 0; i < closebtns.length; i++) {
+            closebtns[i].addEventListener("click", function() {
+                this.parentElement.style.display = 'none';
+            });
+        }
+    </script>
+
 
 </body>
 

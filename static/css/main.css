@@ -73,6 +73,20 @@ img.is-center {
     font-family: 'Open Sans', sans-serif;
 }
 
+.button.bt4 {
+    background-color: #f5ccae;
+    color: black;
+    border-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button.bt5 {
+    background-color: white;
+    color: black;
+    border-color: #abe7e1;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .downy {
     padding-top: 25em;
     padding-bottom: 5em;
@@ -90,4 +104,16 @@ img.is-center {
 .required-field::after {
     content: "*";
     color: red;
+}
+
+.tile1 {
+    background-color: #5F9EA0;
+}
+
+.tile2 {
+    background-color: #f5ccae;
+}
+
+.tile3 {
+    background-color: #abe7e1;
 }

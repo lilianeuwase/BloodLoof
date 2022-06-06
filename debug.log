@@ -124,3 +124,1291 @@ Watching for file changes with StatReloader
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
 "POST /user_account HTTP/1.1" 200 9353
 "GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2993
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /user_account HTTP/1.1" 200 3188
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"POST /user_account HTTP/1.1" 200 9353
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/managers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/wsgi.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /donate HTTP/1.1" 200 4412
+"GET /static/css/main.css HTTP/1.1" 200 1734
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /home HTTP/1.1" 200 2993
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /user_account HTTP/1.1" 200 3188
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"POST /user_account HTTP/1.1" 200 9626
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /static/Images/email-box.jpeg HTTP/1.1" 200 91395
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9738
+- Broken pipe from ('127.0.0.1', 56117)
+
+- Broken pipe from ('127.0.0.1', 56089)
+
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"GET /user_signin HTTP/1.1" 200 3188
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"POST /user_account HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3616
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+"POST /user_account HTTP/1.1" 200 8090
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 964
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2657
+"GET /static/css/main.css HTTP/1.1" 200 1734
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9787
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET / HTTP/1.1" 200 9467
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /user_signin HTTP/1.1" 200 3261
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3745
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3702
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9467
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /favicon.ico HTTP/1.1" 200 896
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 4021
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 55249)
+
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2366
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /static/admin/css/login.css HTTP/1.1" 200 1203
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/donate/donor/ HTTP/1.1" 200 7913
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/donate/donor/e2c5b217-70ea-4557-8d3c-d1c110f7edea/change/ HTTP/1.1" 200 12124
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /admin/auth/user/ HTTP/1.1" 200 10167
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 896
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 896
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET / HTTP/1.1" 200 9776
+"GET /static/css/main.css HTTP/1.1" 200 1734
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /static/Images/Logo.jpeg HTTP/1.1" 200 16875
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 200 299087
+"GET /static/Images/Lisa.png HTTP/1.1" 200 210470
+"GET /static/Images/Head_Picture.png HTTP/1.1" 200 124574
+"GET /static/Images/Background2.jpeg HTTP/1.1" 200 63576
+"GET /static/Images/email-box.jpeg HTTP/1.1" 200 91395
+"GET /favicon.ico HTTP/1.1" 200 896
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /favicon.ico HTTP/1.1" 200 896
+"GET /change_password_page HTTP/1.1" 200 3994
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"POST /change_password HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3892
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"GET /donate HTTP/1.1" 200 4722
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /favicon.ico HTTP/1.1" 200 896
+"POST /donate HTTP/1.1" 500 59
+"GET /favicon.ico HTTP/1.1" 200 896
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3968
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py", line 35, in donate
+    full_name = request.user.full_name
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'full_name'
+"POST /donate HTTP/1.1" 500 70335
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py", line 35, in donate
+    full_name = request.user.full_name
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'full_name'
+"POST /donate HTTP/1.1" 500 70335
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /admin/donate/donor/e2c5b217-70ea-4557-8d3c-d1c110f7edea/change/ HTTP/1.1" 200 12116
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py", line 35, in donate
+    full_name = request.user.full_name
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'full_name'
+"POST /donate HTTP/1.1" 500 70335
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py", line 35, in donate
+    full_name = request.user.full_name
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'full_name'
+"POST /donate HTTP/1.1" 500 70335
+"GET / HTTP/1.1" 200 2966
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /donate HTTP/1.1" 200 4722
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+Internal Server Error: /donate
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py", line 35, in donate
+    full_name = request.user.full_name
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/utils/functional.py", line 259, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'full_name'
+"POST /donate HTTP/1.1" 500 70334
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /donate HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3323
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/donate/donor/e2c5b217-70ea-4557-8d3c-d1c110f7edea/change/ HTTP/1.1" 200 12116
+- Broken pipe from ('127.0.0.1', 56810)
+
+- Broken pipe from ('127.0.0.1', 56818)
+
+- Broken pipe from ('127.0.0.1', 56820)
+
+- Broken pipe from ('127.0.0.1', 56819)
+
+- Broken pipe from ('127.0.0.1', 56823)
+
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+- Broken pipe from ('127.0.0.1', 56825)
+
+- Broken pipe from ('127.0.0.1', 56824)
+
+- Broken pipe from ('127.0.0.1', 56831)
+
+- Broken pipe from ('127.0.0.1', 56829)
+
+- Broken pipe from ('127.0.0.1', 56828)
+
+- Broken pipe from ('127.0.0.1', 56822)
+
+- Broken pipe from ('127.0.0.1', 56821)
+
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/logout/ HTTP/1.1" 200 1530
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /donate HTTP/1.1" 200 4722
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /donate HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3323
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/donate/donor/e2c5b217-70ea-4557-8d3c-d1c110f7edea/change/ HTTP/1.1" 200 12116
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/donate/donor/c055fa97-0c66-4c9d-9dc5-6cbacf6590dc/change/ HTTP/1.1" 200 12201
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/donate/donor/b303cabf-2498-4903-8410-0080cc9f6eca/change/ HTTP/1.1" 200 12116
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/donate/donor/aa377e31-4c0c-478b-a8af-8148024af882/change/ HTTP/1.1" 200 12127
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/donate/donor/ HTTP/1.1" 200 7905
+"GET /admin/donate/donor/c055fa97-0c66-4c9d-9dc5-6cbacf6590dc/change/ HTTP/1.1" 200 12201
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/donate/donor/c055fa97-0c66-4c9d-9dc5-6cbacf6590dc/change/ HTTP/1.1" 302 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 8134
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"POST /donate HTTP/1.1" 200 9730
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/donate/donor/c055fa97-0c66-4c9d-9dc5-6cbacf6590dc/change/ HTTP/1.1" 200 12202
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 8179
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/donate/donor/3bffc00e-f2a2-46c5-aabe-d63283743edc/change/ HTTP/1.1" 200 12206
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 115, in user_account
+    return render(request, "hospital/hospital_account.html",{"hospital_list":butaro_list, "hospital":hospital})
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hospital/hospital_account.html
+"POST /user_account HTTP/1.1" 500 89356
+"POST /user_account HTTP/1.1" 200 10708
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/donate/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 10384
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/donate/donor/ HTTP/1.1" 200 7841
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+"GET /static/admin/js/core.js HTTP/1.1" 200 7134
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+"GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+"GET /admin/donate/donor/3bffc00e-f2a2-46c5-aabe-d63283743edc/change/ HTTP/1.1" 200 11868
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20281
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /admin/donate/donor/3bffc00e-f2a2-46c5-aabe-d63283743edc/change/ HTTP/1.1" 302 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 8073
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/donate/donor/3bffc00e-f2a2-46c5-aabe-d63283743edc/change/ HTTP/1.1" 200 11869
+"GET /admin/donate/donor/ HTTP/1.1" 200 7841
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 10385
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 2966
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 87, in user_account
+    if request.user.is_authenticated() or request.method == 'POST':
+TypeError: 'bool' object is not callable
+"POST /user_account HTTP/1.1" 500 67703
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 132, in user_account
+    elif request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+"GET /user_account HTTP/1.1" 500 66877
+Watching for file changes with StatReloader
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 132, in user_account
+    elif request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+"GET /user_account HTTP/1.1" 500 67014
+"GET / HTTP/1.1" 200 2966
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 132, in user_account
+    elif request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+"GET /user_account HTTP/1.1" 500 67028
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 132, in user_account
+    elif request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+"GET /user_account HTTP/1.1" 500 67028
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 132, in user_account
+    elif request.user.is_authenticated()==True:
+TypeError: 'bool' object is not callable
+"GET /user_account HTTP/1.1" 500 67026
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /user_account
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 133, in user_account
+    if user is not None:
+UnboundLocalError: local variable 'user' referenced before assignment
+"GET /user_account HTTP/1.1" 500 66982
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10693
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10693
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 4021
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /donate HTTP/1.1" 200 4722
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /donate HTTP/1.1" 200 4722
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 2966
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 2966
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signup HTTP/1.1" 200 5836
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_signup HTTP/1.1" 302 0
+"GET /user_account HTTP/1.1" 200 10035
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 9776
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /user_signup HTTP/1.1" 302 0
+"GET /user_account HTTP/1.1" 200 10035
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10096
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 9776
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /home HTTP/1.1" 200 9803
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Masimbi.jpeg HTTP/1.1" 200 38861
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9662
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9673
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9684
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9684
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10123
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Masimbi.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 9684
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10076
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10076
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9922
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9933
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10093
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9934
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9945
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 12266
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 11747
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 11752
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 11752
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9934
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10216
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9945
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3570
+"POST /user_account HTTP/1.1" 200 9945
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9951
+"GET /static/css/main.css HTTP/1.1" 200 1860
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9951
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 200 1777
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9957
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 200 1820
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 9957
+"GET /static/css/main.css HTTP/1.1" 200 1820
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 9957
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 200 1953
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10123
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/Masimbi.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_signin HTTP/1.1" 200 3570
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"POST /user_account HTTP/1.1" 200 10693
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10698
+"GET /static/css/main.css HTTP/1.1" 200 1996
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10698
+"GET /static/css/main.css HTTP/1.1" 200 1996
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10708
+"GET /static/css/main.css HTTP/1.1" 200 1996
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10711
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 10711
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 200 2129
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_account HTTP/1.1" 200 11029
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 11029
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_account HTTP/1.1" 200 10705
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10705
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /user_account HTTP/1.1" 200 10863
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /admin/ HTTP/1.1" 200 7062
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 8179
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /admin/donate/donor/3bffc00e-f2a2-46c5-aabe-d63283743edc/change/ HTTP/1.1" 200 12207
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/donate/donor/ HTTP/1.1" 200 8179
+"GET /admin/auth/user/ HTTP/1.1" 200 10576
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /user_signout HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 10123
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Masimbi.jpeg HTTP/1.1" 304 0
+"GET /static/Images/Lisa.png HTTP/1.1" 304 0
+"GET /static/Images/Head_Picture.png HTTP/1.1" 304 0
+"GET /static/Images/img-howitworks-2.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /admin/auth/user/ HTTP/1.1" 200 10989
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 10989
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 52570)
+
+"POST /admin/auth/user/ HTTP/1.1" 200 5180
+- Broken pipe from ('127.0.0.1', 52572)
+
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 410
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10718
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+- Broken pipe from ('127.0.0.1', 52571)
+
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/Images/email-box.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 200 896
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /user_signup HTTP/1.1" 500 59
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signup HTTP/1.1" 200 5887
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /admin/auth/user/ HTTP/1.1" 200 10980
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 52729)
+
+"POST /admin/auth/user/ HTTP/1.1" 200 5172
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 52727)
+
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /user_signup HTTP/1.1" 200 5533
+Internal Server Error: /user_signup
+Traceback (most recent call last):
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py", line 75, in user_signup
+    send_mail(subject, message, from_email, to_list, fail_silently=False)
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/mail/message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "/Users/ughestaff/.local/share/virtualenvs/Codes-vPfYgZ7o/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+"POST /user_signup HTTP/1.1" 500 104548
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 6904
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /admin/auth/user/ HTTP/1.1" 200 10980
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 52881)
+
+"POST /admin/auth/user/ HTTP/1.1" 200 5172
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /user_signup HTTP/1.1" 200 5864
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/authentication/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /user_signup HTTP/1.1" 200 5533
+"GET /admin/auth/user/ HTTP/1.1" 200 10982
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 200 16225
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 53562)
+
+"POST /admin/auth/user/ HTTP/1.1" 200 5174
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /admin/auth/user/ HTTP/1.1" 200 10982
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 200 5174
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 10982
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 200 5174
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"GET /user_signup HTTP/1.1" 200 5533
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0
+/Users/ughestaff/Library/CloudStorage/OneDrive-IUInternationalUniversityofAppliedSciences/School/Subjects/In Progress/Project Software Engineering/BloodLoof/2. Development Phase/Django Coding/Codes/Bloodloof_project/info.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/auth/user/ HTTP/1.1" 200 10982
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/auth/user/ HTTP/1.1" 200 5174
+"GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10710
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /admin/auth/user/ HTTP/1.1" 200 5172
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10293
+"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+"POST /user_signup HTTP/1.1" 302 0
+"GET /user_signin HTTP/1.1" 200 3904
+"GET /static/css/main.css HTTP/1.1" 304 0
+"GET /static/Images/Logo.jpeg HTTP/1.1" 304 0
+"GET /static/node_modules/bulma/bulma HTTP/1.1" 404 1932
+"GET /static/Images/Background2.jpeg HTTP/1.1" 304 0

@@ -13,6 +13,7 @@ from decimal import Decimal
 
 # Create your views here.
 
+# Register the donors
 def donate(request):
     
     now = datetime.now()
@@ -31,14 +32,15 @@ def donate(request):
             password = request.user.password
             email = request.user.email
             fname = request.user.first_name
-            full_name = request.user.full_name
+            lname = request.user.last_name
+            full_name = fname+" "+lname
 
-        
+        # Check if the user exists
         if Donor.objects.filter(username = username).exists():
             messages.error(request, "You can not make an apointment twice in less than 2 months")
             return redirect('home')
         
-        
+        # Check if the phone number is 14 (in Rwanda)
         if len(phone_number)>14:
             messages.error(request, "Phone Number can not exceed 14 characters")
             return redirect('donate')
@@ -55,7 +57,9 @@ def donate(request):
             messages.error(request, "You can only book an apointment for the next day or later")
             return redirect('donate')
         
-        #Calculate the donor's Age
+        '''
+        Calculate the donor's Age and limit age for blood donationa
+        '''
         today = date.today()
         birthdate = datetime.strptime(dob, '%Y-%m-%d')
         age = today.year - birthdate.year - ((today.month, today.day) < (birthdate.month, birthdate.day))
@@ -65,11 +69,15 @@ def donate(request):
             messages.error(request, "Only 18 years of age and above can donate blood")
             return redirect('donate')
         
+        if age>120:
+            messages.error(request, "120 Years+ is a risky age to donate blood")
+            return redirect('donate')
+        
         if Decimal(weight)<49.9:
             messages.error(request, "You need to weight 50kgs or more to donate blood")
             return redirect('donate')
             
-            
+        # Save donor
         mydonor = Donor.objects.create_user(phone_number, dob)
         
         mydonor.weight = weight

@@ -34,7 +34,7 @@
                                 
                             </span>
                             <span class="navbar-item ">
-                                <a href="/change_password_page" class="button bt3 ">
+                                <a href="/change_password_page" class="button bt4 ">
                                     <strong> Change Password </strong>
                                 </a>
                                 
@@ -59,10 +59,14 @@
         {% endfor %}
 
         <div class="hero-body ">
+            <div class="notification is-primary is-light">
+                <button class="delete close"></button> If you are a <strong>Hospital</strong> who wish to have full access granted to hospitals, kindly email us at <strong>thebloodloof@gmail.com</strong>
+            </div>
 
             <div class="tile is-ancestor">
                 <div class="tile is-4 is-vertical is-parent">
                     <div class="tile is-child box">
+
                         <h1 class="title is-size-3 ">
                             Hello {{ fname }},
                         </h1>
@@ -81,7 +85,7 @@
                     </div>
                 </div>
                 <div class="tile is-parent">
-                    <div class="tile is-child box">
+                    <div class="tile is-child box tile1">
                         <h1 class="title is-size-3 ">
                             10 Blood Facts
                         </h1>
@@ -97,7 +101,7 @@
 
             <div class="tile is-ancestor">
                 <div class="tile is-horizontal is-parent">
-                    <div class="tile is-child box">
+                    <div class="tile is-child box tile2">
                         <h1 class="title is-size-3 ">
                             Who is eligible to donate blood in Rwanda?<br><br>
                         </h1>
@@ -166,6 +170,18 @@
     </footer>
 
     <script src="" async defer></script>
+
+    <script>
+        var closebtns = document.getElementsByClassName("close");
+        var i;
+
+        for (i = 0; i < closebtns.length; i++) {
+            closebtns[i].addEventListener("click", function() {
+                this.parentElement.style.display = 'none';
+            });
+        }
+    </script>
+
 </body>
 
 </html>
