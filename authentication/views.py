@@ -47,6 +47,11 @@ def user_signup(request):
             messages.error(request, "Username can not exceed 10 characters")
             return redirect('user_signup')
         
+        # Condition to verify the lenght of the password
+        if len(password1)<5:
+            messages.error(request, "Password has to be at least 5 characters")
+            return redirect('user_signup')
+        
         # Condition to verify if the 2 passwords match  
         if password1 !=password2:
             messages.error(request, "Passwords do not match")
