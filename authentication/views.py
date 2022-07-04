@@ -74,7 +74,7 @@ def user_signup(request):
         
         # Welcome Email after saving the user's info
         subject = "Welcome to BloodLoof Login!!"
-        message = "Hello " + myuser.first_name + "!! \n" + "Welcome to BloodLoof!! \nThank you"        
+        message = "Hello " + myuser.first_name + "!! \n" + "Welcome to BloodLoof, You have made the first step towards saving a LIFE!! \nThank you"        
         from_email = settings.EMAIL_HOST_USER
         to_list = [myuser.email]
         send_mail(subject, message, from_email, to_list, fail_silently = True)
@@ -203,10 +203,12 @@ def change_password(request, *args, **kwargs):
         newpassword = request.POST['newpassword']
         newpassword1 = request.POST['newpassword1']
         
+        # Verify if both passwords are equal
         if (newpassword != newpassword1):
             messages.error(request, "Password does not match")
             return redirect('change_password_page')
         
+        # Verify if the user exists
         if User.objects.filter(username = username):
         
             myuser = User.objects.get(username=username)

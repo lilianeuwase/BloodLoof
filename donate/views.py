@@ -95,10 +95,43 @@ def donate(request):
         
         # Welcome Email
         subject = "Thank your for your blood donation initiative"
-        message = "Hello " + fname+ "!! \n" + "We have received your sign up for blood donation, we will reach out within the next 24 hours with a confirmation \nThank you"        
+        message = "Hello " + fname+ "!! \n" + "We have received your sign up for blood donation, we will reach out within the next 24 hours with a confirmation \nThank you for the great Initiative"        
         from_email = settings.EMAIL_HOST_USER
         to_list = [email]
         send_mail(subject, message, from_email, to_list, fail_silently=True)
-        return render(request, "authentication/user_account.html")
+        
+    
+        if(hospital == 'Butaro District Hospital'):
+            email1 = 'alfagason@gmail.com'
+            
+            # Email to Hospital
+            subject1 = "a Donor has registered"
+            message1 = "Hello Butaro, \n" + username + " has signed up for a blood donation, his email is:" + email
+            from_email1 = settings.EMAIL_HOST_USER
+            to_list1 = [email1]
+            send_mail(subject1, message1, from_email1, to_list1, fail_silently=True)
+            return render(request, "authentication/user_account.html")
+        
+        elif(hospital == 'King Faisal Hospital'):
+            email1 = 'alfagason1@gmail.com'
+            
+            # Email to Hospital
+            subject1 = "a Donor has registered"
+            message1 = "Hello Faisal, \n" + username + " has signed up for a blood donation, his email is:" + email
+            from_email1 = settings.EMAIL_HOST_USER
+            to_list1 = [email1]
+            send_mail(subject1, message1, from_email1, to_list1, fail_silently=True)
+            return render(request, "authentication/user_account.html")
+        
+        elif(hospital == 'Musanze District Hospital'):
+            email1 = 'alfagason2@gmail.com'
+            
+            # Email to Hospital
+            subject1 = "a Donor has registered"
+            message1 = "Hello Musanze, \n" + username + " has signed up for a blood donation, his email is:" + email
+            from_email1 = settings.EMAIL_HOST_USER
+            to_list1 = [email1]
+            send_mail(subject1, message1, from_email1, to_list1, fail_silently=True)
+            return render(request, "authentication/user_account.html")
         
     return render(request, "donate/donate.html")
