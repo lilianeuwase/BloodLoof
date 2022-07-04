@@ -32,7 +32,7 @@ EMAIL_PORT = EMAIL_PORT
 SECRET_KEY = '5sfp+*esjnoyd0(7h%nupipd$$ds#p3ot)pd4k78cl$6@d96mn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'bldeployment.herokuapp.com', 'bloodloof.herokuapp.com']
 

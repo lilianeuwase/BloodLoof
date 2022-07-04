@@ -206,12 +206,16 @@ def change_password(request, *args, **kwargs):
         if (newpassword != newpassword1):
             messages.error(request, "Password does not match")
             return redirect('change_password_page')
-            
-        else:
+        
+        if User.objects.filter(username = username):
+        
             myuser = User.objects.get(username=username)
             myuser.set_password(newpassword)
             myuser.save()
             
             messages.success(request, "Password Changed!!")
             return redirect('user_signin')
+    
+        messages.error(request, "Username does not exist")
+        return redirect('change_password_page')
     
